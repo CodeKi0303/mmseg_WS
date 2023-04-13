@@ -8,5 +8,6 @@ from .ham_headws import LightHamHeadWS
 from .lawin_head import LAWINHead
 from .lawin_headws import LAWINHeadWS
 from .psp_headws import PSPHeadWS
+from .aspp_head_ws import ASPPHeadWS
 __all__ = ['UPerHeadWS', 'FPNHeadWS', 'DepthwiseSeparableASPPHeadWS', 'LightHamHead', 'LightHamHeadWS',
-           'LAWINHead', 'LAWINHeadWS', 'PSPHeadWS' ]
+           'LAWINHead', 'LAWINHeadWS', 'PSPHeadWS', 'ASPPHeadWS']
